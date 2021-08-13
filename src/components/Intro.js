@@ -1,6 +1,8 @@
 import React from 'react';
 import img from '../assets/ebook-cover.png';
 
+
+
 const Intro = () => {
 	return (
 		<section id='intro'>
@@ -12,12 +14,24 @@ const Intro = () => {
 							<div className='display-5 text-muted'> Your Coding Skills </div>
 						</h1>
 						<p className='lead my-4 text-muted'>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.Totam eum,
-							sed natus debitis quibusdam, soluta rem sit molestias vel nesciunt
-							incidunt.Voluptatum nam maiores nisi.
+							This is a bootstrap 5.0 test project created using
+							create-react-app .
 						</p>
 						<a href='#pricing' className='btn btn-secondary btn-lg'>
 							Buy Now
+						</a>
+						<a
+							href='#sidebar'
+							className='d-block mt-3 lead'
+							style={{
+								textDecoration: 'none',
+								color: 'gray',
+								fontSize: 'medium',
+							}}
+							data-bs-toggle='offcanvas'
+							role='button'
+							aria-controls='sidebar'>
+							Explore my other books
 						</a>
 					</div>
 					<div className='col-md-5 text-center d-none d-md-block'>
