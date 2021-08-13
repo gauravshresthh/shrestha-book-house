@@ -5,7 +5,8 @@ const Navbar = () => {
 	return (
 		<nav className={`${styles.customNav} navbar navbar-expand-md navbar-light`}>
 			<div className='container-xxl'>
-				<a href='#intro' className='navbar-brand'>
+				<a href className='navbar-brand'>
+					<i className='bi-github mx-3' role='img' aria-label='GitHub'></i>
 					<span className='fw-bold text-secondary'>
 						Shrestha Code House - The Book
 					</span>
